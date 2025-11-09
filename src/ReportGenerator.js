@@ -1,4 +1,4 @@
-export class ReportGenerator {
+class ReportGenerator {
   constructor(database) {
     this.db = database;
   }
@@ -67,3 +67,4 @@ export class ReportGenerator {
     return report.trim();
   }
 }
+module.exports = { ReportGenerator };
